@@ -141,9 +141,10 @@ body {
     line-height: 16px;
     cursor: pointer;
 }
-.header__form__submit-alt {
-    display: none;
+.header__form__submit::before {
+    content: "Rechercher";
 }
+
 
 .filtres {
     display: flex;
@@ -801,30 +802,21 @@ footer a:hover {
         width: 100%;
     }
     
-    .header__form__submit-alt {
-        display: block;
-        margin: 0;
+    .header__form__submit {
         margin-left: -16px;
         border-radius: 16px;
-        border: 1px solid transparent;
-        background-color: #0065FC;
-        color: white;
         min-width: 51px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 16px;
-        cursor: pointer;
         width: 50px;
-        
+    }
+    .header__form__submit::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f002";
     }
     .header__form__submit-alt svg {
         fill: white;
         margin-top: 2px;
         height: 17px;
         width: 17px;
-    }
-    .header__form__submit {
-        display: none;
     }
 
     .filtres {
