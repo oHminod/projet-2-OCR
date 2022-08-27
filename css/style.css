@@ -276,7 +276,7 @@ body {
     padding-bottom: 10px;
     box-shadow: 0px 2px 13px rgba(30, 30, 30, .13);
     margin: 15px 1.83%;
-    transition: box-shadow .3s;
+    transition: box-shadow .3s, transform .3s;
 }
 .hebergements__card a {
     display: flex;
@@ -351,9 +351,7 @@ body {
     text-shadow: 0px 2px 3px rgba(30, 30, 30, .13);
 }
 .hebergements__card:hover {
-    /*width: 250.5px;
-    height: 193px;
-    margin: 13px;*/
+    transform: scale(1.02);
     box-shadow: 0px 2px 21px rgba(30, 30, 30, .2);
 }
 /*.hebergements__card:hover img {
@@ -413,12 +411,13 @@ body {
     border-radius: 18px;
     box-shadow: 0px 2px 13px rgba(30, 30, 30, .13);
     margin: 8% 2%;
-    transition: box-shadow .3s;
+    transition: box-shadow .3s, transform .3s;
 }
 .populaires__card:first-child {
     margin-top: 15px;
 }
 .populaires__card:hover {
+    transform: scale(1.02);
     box-shadow: 0px 2px 21px rgba(30, 30, 30, .2);
 }
 .populaires__card a {
@@ -528,7 +527,7 @@ body {
     border-radius: 18px;
     margin-top: 25px;
     margin-bottom: 25px;
-    transition: box-shadow .3s;
+    transition: box-shadow .3s, transform .3s;
 }
 .brightness {
     filter: brightness(110%);
@@ -536,7 +535,7 @@ body {
 
 .activites__card-1 {
     box-shadow: 0px 2px 13px rgba(30, 30, 30, .13);
-    transition: box-shadow .3s;
+    transition: box-shadow .3s, transform .3s;
     height: 237px;
     border-radius: 18px;
     margin-top: 25px;
@@ -551,7 +550,7 @@ body {
 }
 .activites__card-2 {
     box-shadow: 0px 2px 13px rgba(30, 30, 30, .13);
-    transition: box-shadow .3s;
+    transition: box-shadow .3s, transform .3s;
     height: 160px;
     border-radius: 18px;
     margin-top: 25px;
@@ -566,7 +565,7 @@ body {
 }
 .activites__card-3 {
     box-shadow: 0px 2px 13px rgba(30, 30, 30, .13);
-    transition: box-shadow .3s;
+    transition: box-shadow .3s, transform .3s;
     height: 200px;
     border-radius: 18px;
     margin-top: 25px;
@@ -574,7 +573,7 @@ body {
 }
 .activites__card-4 {
     box-shadow: 0px 2px 13px rgba(30, 30, 30, .13);
-    transition: box-shadow .3s;
+    transition: box-shadow .3s, transform .3s;
     height: 197px;
     border-radius: 18px;
     margin-top: 25px;
@@ -595,6 +594,7 @@ body {
     object-fit: cover;
 }
 .activites__card-full:hover, .activites__card-1:hover, .activites__card-2:hover, .activites__card-3:hover, .activites__card-4:hover {
+    transform: scale(1.02);
     box-shadow: 0px 2px 21px rgba(30, 30, 30, .2);
 }
 .activites__bloc h3 {
