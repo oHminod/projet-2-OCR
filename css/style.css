@@ -811,6 +811,7 @@ footer a:hover {
     .header__form__submit::before {
         font-family: "Font Awesome 5 Free";
         content: "\f002";
+        font-weight: 900;
     }
     .header__form__submit-alt svg {
         fill: white;
